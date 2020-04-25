@@ -1,0 +1,478 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="renderer" content="webkit">
+	<title>MINISO </title>
+	<link rel="stylesheet" href="css/amazeui.min.css" charset="UTF-8" />
+	<link rel="stylesheet" href="css/swiper.min.css" charset="UTF-8" />
+	<link rel="stylesheet" href="css/pc.css" charset="UTF-8" />
+	<link rel="stylesheet" href="css/phone.css" charset="UTF-8" />
+	<link rel="stylesheet" href="css/reset.css" charset="UTF-8" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="wrap">
+			<!--header-->
+			<div class="header clearfix headerbt">
+				<div class="headerleft">
+					<a href="/">
+						<img src="img/logo.png" alt="" />
+					</a>
+				</div>
+				<div class="headerright clearfix">
+					<div class="versionswitchingwrap clearfix">
+						<div class="versionswitching clearfix">
+							<div class="versions">简体</div>
+							<img src="img/rednext.png" alt="" />
+							<ol class="language_list">
+
+								<li><a href="#">English</a></li>
+								<li><a href="#">日本語</a></li>
+								<li><a href="#">繁體中文</a></li>
+								<li>
+									<div class="worldsite" onclick="worldsite()">
+										<span>全球市场</span>
+										<img src="img/world.png" />
+									</div>
+								</li>
+							</ol>
+						</div>
+						<div class="searchwrap">
+							<input type="button" name="" id="" value="" />
+						</div>
+					</div>
+
+
+					<div class="pc_nav">
+						<ol class="navigation clearfix">
+							<li class="nv1 nav">
+								<a href="/" class="mousevoer">首页</a>
+							</li>
+							<li class="nv2 nav">
+								<a href="#" class="mousevoer">品牌</a>
+								<div class="hover_list">
+									<div class="kong"></div>
+									<a href="#">品牌简介</a>
+									<a href="#">创始人</a>
+									<a href="#">发展历程</a>
+									<a href="#">设计师团队</a>
+
+								</div>
+
+							</li>
+							<li class="nv3 nav">
+								<a href="#" class="mousevoer">产品</a>
+								<div class="hover_list">
+									<div class="kong"></div>
+									<a href="#">创意家居</a>
+									<a href="#">生活百货</a>
+									<a href="#">健康美容</a>
+									<a href="#">时尚配饰</a>
+									<a href="#">数码配件</a>
+									<a href="#">食品</a>
+									<a href="#">IP授权</a>
+									<a href="#">获奖作品</a>
+								</div>
+
+							</li>
+							<li class="nv4 nav">
+								<a href="#" onclick="setCookie('newsmenu',0)" class="mousevoer">新闻</a>
+								<div class="hover_list">
+									<div class="kong"></div>
+									<a href="#" onclick="setCookie('newsmenu',0)">集团资讯</a>
+									<a href="#" onclick="setCookie('newsmenu',1)">媒体报道</a>
+									<a href="#" onclick="setCookie('newsmenu',2)">焦点动态</a>
+									<a href="#" onclick="setCookie('newsmenu',3)">名声在外</a>
+								</div>
+
+							</li>
+							<li class="nv5 nav">
+								<a href="#" class="mousevoer">店铺</a>
+								<div class="hover_list">
+									<div class="kong"></div>
+									<a href="#">全球店铺分布</a>
+									<a href="#" onclick="setCookie('shopmenu',1)">店铺投资政策</a>
+									<a href="#">店铺开业视频</a>
+									<a href="#" target="_blank">网上商城</a>
+								</div>
+
+							</li>
+							<li class="nv6 nav">
+								<a href="#" class="mousevoer">联系</a>
+								<div class="hover_list">
+									<div class="kong"></div>
+									<a href="#">合作机会</a>
+									<a href="#r">供应商频道</a>
+								</div>
+							</li>
+							<li class="nv7 nav">
+								<a href="#" target="_blank" class="mousevoer">招聘</a>
+							</li>
+						</ol>
+					</div>
+					<!--phone -->
+					<div class="ph_hdright clearfix">
+						<div class="ph_hdnav">
+							<img src="img/ph_nav.png" class="ph_navimg" />
+							<img src="img/close.png" class="ph_navclose" />
+						</div>
+						<div class="ph_hdsearch">
+							<img src="img/blacksearch.png" alt="" />
+						</div>
+						<div class="ph_hdnav1">
+							<img src="img/world.png" class="ph_navimg" />
+							<img src="img/close.png" class="ph_navclose1" />
+						</div>
+					</div>
+
+					<div class="phsubnav">
+						<ol class="ph_subnavlist">
+							<li>
+								<a href="/" class="home_ph">首页</a>
+							</li>
+							<li>
+								<div class="ph_subtag ph_subtags ">
+									<a href="#">品牌</a>
+									<div class="clearfix">
+										<img src="img/whiten.png" alt="" class="ph_sub_next sub_next_rot" />
+									</div>
+								</div>
+								<div class="ph_subnavlis hide">
+									<div class="subnavlis_ph">
+										<a href="#">品牌简介</a>
+										<a href="#">创始人</a>
+										<a href="#">发展历程</a>
+										<a href="#">设计师团队</a>
+
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="ph_subtag ph_subtags ">
+									<a href="#">产品</a>
+									<div class="clearfix">
+										<img src="img/whiten.png" alt="" class="ph_sub_next sub_next_rot" />
+									</div>
+								</div>
+								<div class="ph_subnavlis hide">
+									<div class="subnavlis_ph">
+										<a href="#">创意家居</a>
+										<a href="#">生活百货</a>
+										<a href="#">健康美容</a>
+										<a href="#">时尚配饰</a>
+										<a href="#">数码配件</a>
+										<a href="#">食品</a>
+										<a href="#">IP授权</a>
+										<a href="#">获奖作品</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="ph_subtag ph_subtags ">
+									<a href="#">新闻</a>
+									<div class="clearfix">
+										<img src="img/whiten.png" alt="" class="ph_sub_next sub_next_rot" />
+									</div>
+								</div>
+								<div class="ph_subnavlis hide">
+									<div class="subnavlis_ph">
+										<a href="#" onclick="setCookie('newsmenu',0)">集团资讯</a>
+										<a href="#" onclick="setCookie('newsmenu',1)">媒体报道</a>
+										<a href="#" onclick="setCookie('newsmenu',2)">焦点动态</a>
+										<a href="#" onclick="setCookie('newsmenu',3)">名声在外</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="ph_subtag ph_subtags ">
+									<a href="#">店铺</a>
+									<div class="clearfix">
+										<img src="img/whiten.png" alt="" class="ph_sub_next sub_next_rot" />
+									</div>
+								</div>
+								<div class="ph_subnavlis hide">
+									<div class="subnavlis_ph">
+										<a href="#">全球店铺分布</a>
+										<a href="#" onclick="setCookie('shopmenu',1)">店铺投资政策</a>
+										<a href="#">店铺开业视频</a>
+										<a href="#" target="_blank">网上商城</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="ph_subtag ph_subtags ">
+									<a href="#">联系</a>
+									<div class="clearfix">
+										<img src="img/whiten.png" alt="" class="ph_sub_next sub_next_rot" />
+									</div>
+								</div>
+								<div class="ph_subnavlis hide">
+									<div class="subnavlis_ph">
+										<a href="#">合作机会</a>
+										<a href="#">供应商频道</a>
+
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="ph_subtag ph_subtags ">
+									<a href="#" target="_blank" style="width:100%">招聘</a>
+								</div>
+							</li>
+							<li>
+								<a href="javascript:void(0)" class="changeen clearfix">
+									<span>简体</span> <img src="img/whiten.png" alt="" />
+								</a>
+								<div class="change_language">
+									<div class="lis_ph">
+										<a href="#">English</a>
+										<a href="#">日本語</a>
+										<a href="#">繁體中文</a>
+									</div>
+								</div>
+							</li>
+						</ol>
+					</div>
+					<div class="phsubnav1">
+						<ol class="ph_subnavlist">
+							<li>
+								<div class="home_ph">全球市场官网一览</div>
+							</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+			<!--banner-->
+			<div class="banner">
+				<div class="swiper-container sw3">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a href="#"><img src="img/huamulan.jpg" alt="" /></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#"><img src="img/wuhan1.jpg" alt="" /></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#"><img src="img/wuhan3.jpg" alt="" /></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#"><img src="img/wuhan2.jpg" alt="" /></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#"><img src="img/banner2(3).jpg" alt="" /></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#"><img src="img/banner3(1).jpg" alt="" /></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#"><img src="img/banner1(1).jpg" alt="" /></a>
+						</div>
+					</div>
+
+					<div class="swiper-pagination">
+						<span class="swiper-pagination-switch"></span>
+						<span class="swinner"></span>
+						<span class="swiper-pagination-switch"></span>
+						<span class="swinner"></span>
+						<span class="swiper-pagination-switch"></span>
+						<span class="swinner"></span>
+						<span class="swiper-pagination-switch"></span>
+						<span class="swinner"></span>
+						<span class="swiper-pagination-switch"></span>
+						<span class="swinner"></span>
+						<span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span>
+						<span class="swinner"></span><span class="swiper-pagination-switch"></span>
+						<span class=""></span>
+					</div>
+				</div>
+			</div>
+			<!--content-->
+			<div class="content">
+				<div class="module clearfix">
+					<a href="#" class="moduleleft">
+						<img src="img/brandconcept.jpg" alt="" />
+						<p class="index_brand">品牌简介</p>
+						<p class="index_brandtitle"></p>
+						<img src="img/grayarrow.png" class="index_brandarrow" />
+					</a>
+					<div class="modulecon">
+						<p>投资政策</p>
+						<div class="investor">特许商标使用金、货品保证金、装修预付金；每天营业额按比例分成，第二天到账...</div>
+						<a href="#" class="morebase">
+							<img src="img/whitearrow.png" class="hideimg" />
+							<img src="img/graylink.png" class="showimg" />
+						</a>
+					</div>
+					<a href="#" class="modulecons">
+						<img src="img/distributor.jpg" alt="" />
+						<div class="distributor">全球店铺分布</div>
+					</a>
+				</div>
+				<div class="subnav">
+					<div class="basetitle">优选好品</div>
+					<div class="navlistwrap">
+						<div class="navlist clearfix">
+							<a href="#" class="navlis">
+								<img src="img/superior1.png" alt="" class="showimg" />
+								<img src="img/superior1_h.png" alt="" class="hideimg" />
+								<div class="navcaption">创意家居</div>
+							</a>
+							<a href="#" class="">
+								<img src="img/superior2.png" alt="" class="showimg" />
+								<img src="img/superior2_h.png" alt="" class="hideimg" />
+								<div class="navcaption">生活百货</div>
+							</a>
+							<a href="#" class="">
+								<img src="img/superior3.png" alt="" class="showimg" />
+								<img src="img/superior3_h.png" alt="" class="hideimg" />
+								<div class="navcaption">健康美容</div>
+							</a>
+							<a href="#" class="">
+								<img src="img/superior4.png" alt="" class="showimg" />
+								<img src="img/superior4_h.png" alt="" class="hideimg" />
+								<div class="navcaption">时尚配饰</div>
+							</a>
+							<a href="#" class="">
+								<img src="img/superior7.png" alt="" class="showimg" />
+								<img src="img/superior7_h.png" alt="" class="hideimg" />
+								<div class="navcaption">数码配件</div>
+							</a>
+							<a href="#" class="">
+								<img src="img/superior9.png" alt="" class="showimg" />
+								<img src="img/superior9_h.png" alt="" class="hideimg" />
+								<div class="navcaption">食品</div>
+							</a>
+							<a href="#" class="">
+								<img src="img/superior0.png" alt="" class="showimg" />
+								<img src="img/superior0_h.png" alt="" class="hideimg" />
+								<div class="navcaption">IP授权</div>
+							</a>
+						</div>
+					</div>
+					<div class="subnavprodcuts">
+
+						<div class="subproducts show clearfix"> <a href="#" class="productswrap">
+								<div class="subproductsimg">
+									<img src="img/产品列表(23).jpg" alt="小M小夜灯" />
+								</div>
+								<h3 class="productstitle">小M小夜灯</h3>
+								<div class="productexplain">MINISO挪威设计师团队Permafrost原创设计
+									Permafrost四人组毕业于Oslo School of Architecture（挪威排名前三的设计学院）
+									为阿迪达斯等品牌设计过产品
+									现为MINISO服务
+									简约、实用、人性化的设计
+									秉承北欧设计理念
+									简约流畅的线条
+									纯净的米白
+									不受限的恒久品味
+								</div>
+								<img src="img/grayarrow.png" alt="小M小夜灯" class="promore" />
+							</a>
+							<a href="#" class="productswrap">
+								<div class="subproductsimg">
+									<img src="img/588-591(1).jpg" alt="面包粒子枕" />
+								</div>
+								<h3 class="productstitle">面包粒子枕</h3>
+								<div class="productexplain">0.5mm微粒子，质优环保，温和承托
+									优选环保微粒子，不易变形，无异味无静电，安全健康
+									采用精细纺织工艺，经纬棉线交错纵横，令面料平整结实、弹性足
+									配合色织工艺，面料不易掉色，经久耐用</div>
+								<img src="img/grayarrow.png" alt="面包粒子枕" class="promore" />
+							</a>
+							<a href="#" class="productswrap">
+								<div class="subproductsimg">
+									<img src="img/柴犬.jpg" alt="柴犬系列公仔" />
+								</div>
+								<h3 class="productstitle">柴犬系列公仔</h3>
+								<div class="productexplain">舒适亲肤，触感柔软，不怕挤压
+									拒绝使用黑心棉
+									坚持选用优质棉填充
+									给您意想不到的柔软触感
+									全程微电脑控制裁床
+									进口绣花机电绣、缝纫
+									充棉饱满，精密缝口</div>
+								<img src="img/grayarrow.png" alt="柴犬系列公仔" class="promore" />
+							</a>
+							<a href="#" class="productswrap">
+								<div class="subproductsimg">
+									<img src="img/588-591(2).jpg" alt="香薰机" />
+								</div>
+								<h3 class="productstitle">香薰机</h3>
+								<div class="productexplain">纳米级细腻雾化，润泽空气，一室芬芳
+									内置3MHZ超声波雾化片，把水和精油打散成5μm以下细腻雾粒
+									日常使用舒缓减压，也适合夏季开空调或秋冬干燥时使用</div>
+								<img src="img/grayarrow.png" alt="香薰机" class="promore" />
+							</a>
+							<div class="news">
+								<div class="basetitle">新闻中心</div>
+								<div class="newscontent clearfix">
+									<div class="newslayout">
+										<div class="newsimgaes">
+											<a href="#"><img src="img/news_20200415_list.jpg" /></a>
+										</div>
+										<h3 class="newstitle">名创优品向澳洲捐赠40000个口罩，重点关注残障人士</h3>
+										<div class="newsthems">
+											<a href="#">近日，为支援这场战“疫”，名创优品向澳洲医疗服务机构捐赠40000个口罩，此举亦受到澳大利亚当地媒体ABC
+												NEWS的报道。</a>
+										</div>
+										<a href="#"><img src="img/grayarrow.png" class="newsmore"></a>
+									</div>
+									<div class="newslayout">
+										<div class="newsimgaes">
+											<a href="#"><img src="img/declare_cn.jpg" /></a>
+										</div>
+										<h3 class="newstitle">声明</h3>
+										<div class="newsthems">
+											<a href="#">关于公司前员工王远征已于2020年离职的声明。</a>
+										</div>
+										<a href="#"><img src="img/grayarrow.png" class="newsmore"></a>
+									</div>
+									<div class="newslayout">
+										<div class="newsimgaes">
+											<a href="#"><img src="img/20200402news_list.jpg" /></a>
+										</div>
+										<h3 class="newstitle">名创优品签约西班牙设计团队作品软管灯获2020红点设计奖</h3>
+										<div class="newsthems">
+											<a href="#">近日，名创优品签约的西班牙设计工作室BAMBÚ的设计作品软管灯（FLEXO
+												lamp）一举夺下2020年德国红点设计奖。</a>
+										</div>
+										<a href="#"><img src="img/grayarrow.png" class="newsmore"></a>
+									</div>
+								</div>
+								<a href="#" class="morebase">
+									<img src="img/whitearrow.png" class="hideimg" />
+									<img src="img/graylink.png" class="showimg" />
+								</a>
+							</div>
+						</div>
+						<!--footer-->
+						<div class="footer clearfix">
+							<div class="footerright clearfix">
+
+
+							</div>
+							<div class="footerleft">
+
+								<div class="copyRight">© COPYRIGHT 2018 MINISO名创优品版权所有&nbsp;&nbsp;粤ICP备15008399号 </div>
+							</div>
+							<div class="topwrap">
+								<img src="img/top.png">
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="maskbase"></div>
+				<script>
+					var imghost = "";
+				</script>
+				<script src="js/commom.js"></script>
+				<script src="js/jquery-1.10.2.js"></script>
+				<script src="js/swiper.min.js"></script>
+</body>
+
+</html>
