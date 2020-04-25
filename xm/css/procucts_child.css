@@ -1,0 +1,436 @@
+#content .banner{
+    width: 100%;
+    height: 293px;
+    background: url(../img/priducts_08-51-45-44-2.jpg) no-repeat;
+    background-position-x: center;
+    overflow: hidden;
+}
+#content .cpzx{
+    width: 100%;
+    height: auto;
+    padding: 50px 0px 0px 0px;
+}
+#content .cpz{
+    width: 1000px;
+    height: 91.6px;
+    margin: 0 auto;
+    padding: 0px 0px 40px 0px;
+}
+#content .cpz .cpzd{
+    width: 415px;
+    height: 91.6px;
+    float: left;
+}
+#content .cpz .cpzd h3{
+    width: 415px;
+    height: 28.8px;
+    color: #8ec31f;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+#content .cpz .cpzd h3 span{
+    font-size: 15.4px;
+    color: #666666;
+    margin-left: 10px;
+}
+#content .cpz .cpzd p{
+    width: 415px;
+    height: 52.8px;
+    font-size: 12px;
+    color: #999999;
+}
+#content .cpz .anniu1{
+    width: 508px;
+    height: 80px;
+    float: right;
+}
+#content .cpz .anniu1 li{
+    float: left;
+    width: 116px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    border: #838383 solid 1px;
+    border-radius: 8px;
+    margin: 0px 9px 10px 0px;
+}
+#content .cp{
+    width: 100%;
+    height: auto;
+    background-color: #f7f7f7;
+}
+.cpz ul li.active{
+    color: #8ec31f;
+    font-weight:bold;
+}
+.cpz ul li:hover{
+    color: #8ec31f;
+    font-weight:bold;
+}
+.procon li a img {
+     width: 100%; 
+     transition: 0.2s ease all; 
+     -webkit-transition: 0.2s ease all; 
+     -moz-transition: 0.2s ease all; 
+    }
+.procon li a:hover img { 
+    -webkit-transform: translateX(-5px); 
+    transform: translateX(-5px); 
+}
+#content .cp .xxk1{
+    width: 1000px;
+    height: 1750px;
+    margin: 0 auto;
+    padding: 15px 0px 40px 0px;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+#content .cp .xxk1 .protop{
+    width: 1000px;
+    height: 23px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #efefef;
+}
+#content .cp .xxk1 .protop .back{
+    display: block;
+    height: 23px;
+    line-height: 23px;
+    float: right;
+    padding-right: 33px;
+    background: url(../img/products_icon3.png) right center no-repeat;
+    font-size: 14px;
+    color: #8b8b8b;
+    transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+}
+#content .cp .xxk1 .protop .back:hover{
+    background-position: 93% center;
+    color: #8ec31f; 
+}
+#content .cp .xxk1 .protop a:hover{
+    color: #8ec31f;
+}
+#content .cp .xxk1 .procon{
+    width: 1000px;
+    height: 1671px;
+}
+#content .cp .xxk1 .procon li{
+    float: left;
+    width: 210px;
+    height: 304.200px;
+    margin: 0px 20px 30px 20px;
+}
+#content .cp .xxk1 .procon li h6{
+    width: 220px;
+    height: 40.6px;
+}
+#content .cp .xxk1 .procon li .prosona{
+    color: #8ec31f;
+    font-size: 11px;
+}
+#content .cp .xxk1 .procon li .prosona:hover{
+    text-decoration: underline;
+}
+#content .cp .xxk2{
+    width: 1000px;
+    height: 1750px;
+    margin: 0 auto;
+    padding: 15px 0px 40px 0px;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#content .cp .xxk2 .protop{
+    width: 1000px;
+    height: 23px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #efefef;
+}
+#content .cp .xxk2 .yebiao{
+    width: 400px;
+    height: 16px;
+    margin: 0 auto;
+}
+#content .cp .xxk2 .yebiao a{
+    padding: 2px 5px;
+    border-radius: 8px;
+    border: #999 solid 1px;
+}
+#content .cp .xxk2 .yebiao a:hover{
+    background-color: #8ec31f;
+    color: #fff;
+}
+#content .cp .xxk2 .yebiao .admin{
+    padding: 2px 5px;
+    border-radius: 8px;
+    border: #999 solid 1px;
+    background-color: #8ec31f;
+    color: #fff;
+}
+#content .cp .xxk2 .protop .back{
+    display: block;
+    height: 23px;
+    line-height: 23px;
+    float: right;
+    padding-right: 33px;
+    background: url(../img/products_icon3.png) right center no-repeat;
+    font-size: 14px;
+    color: #8b8b8b;
+    transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+}
+#content .cp .xxk2 .protop .back:hover{
+    background-position: 93% center;
+    color: #8ec31f; 
+}
+#content .cp .xxk2 .protop a:hover{
+    color: #8ec31f;
+}
+#content .cp .xxk2 .procon{
+    width: 1000px;
+    height: 1671px;
+}
+#content .cp .xxk2 .procon li{
+    float: left;
+    width: 210px;
+    height: 304.200px;
+    margin: 0px 20px 30px 20px;
+}
+#content .cp .xxk2 .procon li h6{
+    width: 220px;
+    height: 40.6px;
+}
+#content .cp .xxk2 .procon li .prosona{
+    color: #8ec31f;
+    font-size: 11px;
+}
+#content .cp .xxk2 .procon li .prosona:hover{
+    text-decoration: underline;
+}
+#content .cp .xxk3{
+    width: 1000px;
+    height: 413.2px;
+    margin: 0 auto;
+    padding: 15px 0px 40px 0px;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#content .cp .xxk3 .protop{
+    width: 1000px;
+    height: 23px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #efefef;
+}
+#content .cp .xxk3 .protop .back{
+    display: block;
+    height: 23px;
+    line-height: 23px;
+    float: right;
+    padding-right: 33px;
+    background: url(../img/products_icon3.png) right center no-repeat;
+    font-size: 14px;
+    color: #8b8b8b;
+    transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+}
+#content .cp .xxk3 .protop .back:hover{
+    background-position: 93% center;
+    color: #8ec31f; 
+}
+#content .cp .xxk3 .protop a:hover{
+    color: #8ec31f;
+}
+#content .cp .xxk3 .procon{
+    width: 1000px;
+    height: 334.200px;
+}
+#content .cp .xxk3 .procon li{
+    float: left;
+    width: 210px;
+    height: 304.200px;
+    margin: 0px 20px 30px 20px;
+}
+#content .cp .xxk3 .procon li h6{
+    width: 220px;
+    height: 40.6px;
+}
+#content .cp .xxk3 .procon li .prosona{
+    color: #8ec31f;
+    font-size: 11px;
+}
+#content .cp .xxk3 .procon li .prosona:hover{
+    text-decoration: underline;
+}
+#content .cp .xxk4{
+    width: 1000px;
+    height: 1081.6px;
+    margin: 0 auto;
+    padding: 15px 0px 40px 0px;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#content .cp .xxk4 .protop{
+    width: 1000px;
+    height: 23px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #efefef;
+}
+#content .cp .xxk4 .protop .back{
+    display: block;
+    height: 23px;
+    line-height: 23px;
+    float: right;
+    padding-right: 33px;
+    background: url(../img/products_icon3.png) right center no-repeat;
+    font-size: 14px;
+    color: #8b8b8b;
+    transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+}
+#content .cp .xxk4 .protop .back:hover{
+    background-position: 93% center;
+    color: #8ec31f; 
+}
+#content .cp .xxk4 .protop a:hover{
+    color: #8ec31f;
+}
+#content .cp .xxk4 .procon{
+    width: 1000px;
+    height: 1002.6px;
+}
+#content .cp .xxk4 .procon li{
+    float: left;
+    width: 210px;
+    height: 304.200px;
+    margin: 0px 20px 30px 20px;
+}
+#content .cp .xxk4 .procon li h6{
+    width: 220px;
+    height: 40.6px;
+}
+#content .cp .xxk4 .procon li .prosona{
+    color: #8ec31f;
+    font-size: 11px;
+}
+#content .cp .xxk4 .procon li .prosona:hover{
+    text-decoration: underline;
+}
+#content .cp .xxk5{
+    width: 1000px;
+    height: 1081.6px;
+    margin: 0 auto;
+    padding: 15px 0px 40px 0px;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#content .cp .xxk5 .protop{
+    width: 1000px;
+    height: 23px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #efefef;
+}
+#content .cp .xxk5 .protop .back{
+    display: block;
+    height: 23px;
+    line-height: 23px;
+    float: right;
+    padding-right: 33px;
+    background: url(../img/products_icon3.png) right center no-repeat;
+    font-size: 14px;
+    color: #8b8b8b;
+    transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+}
+#content .cp .xxk5 .protop .back:hover{
+    background-position: 93% center;
+    color: #8ec31f; 
+}
+#content .cp .xxk5 .protop a:hover{
+    color: #8ec31f;
+}
+#content .cp .xxk5 .procon{
+    width: 1000px;
+    height: 1002.6px;
+}
+#content .cp .xxk5 .procon li{
+    float: left;
+    width: 210px;
+    height: 304.200px;
+    margin: 0px 20px 30px 20px;
+}
+#content .cp .xxk5 .procon li h6{
+    width: 220px;
+    height: 40.6px;
+}
+#content .cp .xxk5 .procon li .prosona{
+    color: #8ec31f;
+    font-size: 11px;
+}
+#content .cp .xxk5 .procon li .prosona:hover{
+    text-decoration: underline;
+}
+/* a {
+    text-decoration: none;
+    color: #333333;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+} */
+/* a:hover { border: 1px solid #8ec31f; color: #fff; background-color: #8ec31f; } */
+#content .home{
+    width: 100%;
+    height: 187px;
+    padding: 50px 0px 80px 0px;
+}
+#content .home p{
+    width: 485px;
+    height: 127px;
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+#content .home a{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    display: block;
+    color: #999;
+    border: 1px solid #c4c4c4;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+#content .home a:hover{
+    color: #8ec31f;
+    border: 1px solid #8ec31f;
+}
+#content .leaf { position: absolute; z-index: 888; transition-duration: .4s; -webkit-transition-duration: .4s; -moz-transition-duration: .4s; }
+.leaf.f1 { width: 110px; height: 92px; top: 919px; right: 0px; }
+.leaf.f2 { width: 95px; height: 64px; top: 1252px; left: 0px; }
+.leaf.f3 { width: 101px; height: 179px; top: 1464px; right: 0; }
+.leaf.f4 { width: 126px; height: 82px; top: 2021px; left: 0px; }
+.leaf.f5 { width: 50px; height: 46px; top: 2389px; right: 150px; }
+.leaf.f6 { width: 87px; height: 214px; top: 3174px; left: 0; }
+.leaf.f7 { width: 68px; height: 59px; top: 3658px; right: 68px; }
+.leaf.f8 { width: 89px; height: 112px; top: 3905px; left: 121px; }

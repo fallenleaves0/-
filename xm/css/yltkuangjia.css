@@ -1,0 +1,258 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+  }
+  :focus {
+      outline: 0;
+  }
+  body {
+      line-height: 1;
+      color: black;
+      background: white;
+  }
+  ol, ul {
+      list-style-type: none;
+  }
+  a{
+      color: #333;
+      text-decoration: none;
+  }
+  table {
+      border-collapse: separate;
+      border-spacing: 0;
+  }
+  caption, th, td {
+      text-align: left;
+      font-weight: normal;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+      content: "";
+  }
+  blockquote, q {
+      quotes: "" "";
+  }
+/* 清除样式   */
+/* 框架nav开始 */
+#nav{
+    width: 100%;
+    height: 89px;
+    border-bottom: 1px solid #efefef;
+}
+#nav .nav1{
+    width: 1050px;
+    height: 64.4px;
+    margin: 0 auto;
+}
+#nav .nav1 .log{
+    width: 210px;
+    height: 45px;
+    display: block;
+    padding-top: 30px;
+    float: left;
+}
+#nav .nav1>ul{
+    width: 750.2px;
+    height: 34.4px;
+    padding-top: 32.4px;
+    margin-left: 70.8px;
+    float: right;
+}
+#nav .nav1>ul>li{
+    float: left;
+    width: auto;
+    height: 34.2px;
+    margin-right: 40px;
+}
+#nav .nav1>ul>li a{
+    display: block;
+    width: auto;
+    text-align: center;
+}
+#nav .nav1>ul>li a .nave{
+    font-size: 11px;
+    color: #999;
+    font-family: "Verdana";
+    font-style: italic;
+}
+/* #nav .nav1>ul>li:hover a span{
+    color: #8fc41f;
+} */
+#nav .nav1>ul>li .on{
+    color: #8fc41f;
+}
+/* 框架右侧固定开始 */
+#nav #right{
+    width: 90px;
+    height: 190px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #8ec31f;
+    border-radius: 8px;
+    position: fixed;
+    top: 50px;
+    right: 15px;
+    z-index: 999;
+}
+#nav #right ul{
+    width: 90px;
+    height: 164px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+#nav #right ul .rili1{
+    width: 90px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+}
+#nav #right ul .rili2{
+    width: 90px;
+    height: 32px;
+    line-height: 32px;
+    border-top: #fff solid 1px;
+    text-align: center;
+}
+#nav #right ul li a{
+    color: #fff;
+    font-size: 14px;
+}
+#nav #right ul li a:hover{
+    font-weight: bold;
+}
+#nav #right p{
+    width: 90px;
+    height: 16px;
+    text-align: center;
+}
+#nav #right p img{
+    margin: 0px 5px;
+}
+#nav #right #nowx{
+    position: absolute;
+    top: 195px;
+    left: -80px;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px #ccc;
+    background-color: #fff;
+    overflow: hidden;
+    z-index: 10;
+    display: none;
+}
+#nav #right #nowx img{
+    width: 100%;
+    height: 100%;
+}
+#nav #rinput{
+    width: 116px;
+    height: 26px;
+    border: 2px solid #8ec31f;
+    border-radius: 8px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    top: 25px;
+    right: 15px;
+}
+#nav #rinput input{
+    width: 82px;
+    padding-left: 5px;
+    line-height: 26px;
+    font-size: 14px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    height: 26px;
+    display: block;
+    float: left;
+}
+#nav #rinput a{
+    width: 30px;
+    height: 26px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+}
+#nav #rinput a img:hover{
+    width: 21px;
+    height: 21px;
+    margin-top: 1.5px;
+    margin-left: -1.5px;
+}
+/* 框架右侧固定结束 */
+/* 框架nav结束 */
+/* content开始 */
+#content{
+    width: 100%;
+    height: auto;
+}
+/* content结束 */
+/* 框架footer开始 */
+#footer{
+    width: 100%;
+    height: 395.600px;
+    background: url(../img/kj_footerbg.jpg);
+    padding-bottom: 40px;
+}
+#footer .foot1{
+    width: 1000px;
+    height: 395.600px;
+    margin: 0 auto;
+    color: #fff;
+}
+#footer .foot1 .foot2{
+    width: 1000px;
+    height: 164px;
+    padding: 10px 0px 30px 0px;
+    margin: 0 auto;
+    border-bottom: 2px solid #fff;
+}
+#footer .foot1 .foot2 .footp1{
+    width: 100px;
+    height: 140.8px;
+    margin-right: 135px;
+    float: left;
+}
+#footer .foot1 .foot2 .footp2{
+    width: 100px;
+    height: 140.8px;
+    margin-right: 375px;
+    float: left;
+}
+#footer .foot1 .foot2 a{
+    width: auto;
+    height: 16px;
+    display: block;
+    color: #fff;
+    font-size: 12px;
+}
+#footer .foot1 .foot2 a:hover{
+    color: #8ec31f;
+}
+#footer .foot1 .foot2 .foots1{
+    display: block;
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+}
+#footer .foot1 .foot2 .foots2{
+    display: block;
+    width: 100px;
+    height: 32px;
+    line-height: 32px;
+    border-top: 2px solid #fff;
+}
+#footer .foot3{
+    width: 1000px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 12px;
+}
+/* 框架footer结束 */
